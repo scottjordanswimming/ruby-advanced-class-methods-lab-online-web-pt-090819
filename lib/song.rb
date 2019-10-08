@@ -64,6 +64,7 @@ split_file = song.split(" - ")
  artist = split_file[0]
  song_name = split_file[1].split(".")[0]
   #song_name = split_file[1].gsub(".mp3", "")
+  song = self.new_by_name(song_name)
 end
 
 
