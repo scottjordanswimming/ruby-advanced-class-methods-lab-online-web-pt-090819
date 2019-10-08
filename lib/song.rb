@@ -67,7 +67,7 @@ split_file = song.split(" - ")
   #song = self.new_by_name(song_name)
   #song.artist_name = artist
   
-  song = song.new 
+  song = Song.new 
   song.name = song_name 
   song.artist_name = artist 
   song
