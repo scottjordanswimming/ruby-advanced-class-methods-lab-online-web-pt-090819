@@ -61,7 +61,7 @@ end
 
 def self.new_from_filename(song)
 split_file = song.split(" - ")
- x << song
+ artist = split_file[0]
  binding.pry
   
 end
