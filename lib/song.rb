@@ -60,8 +60,8 @@ def self.alphabetical
 end
 
 def self.new_from_filename(song)
- x = self.create_by_name(song)
- x
+ x = []
+ x << song
  binding.pry
   
 end
