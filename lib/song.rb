@@ -78,6 +78,10 @@ def self.create_from_filename(song)
   song.save
   song
 end
+
+def self.destroy_all
+
+
 end
 
 
