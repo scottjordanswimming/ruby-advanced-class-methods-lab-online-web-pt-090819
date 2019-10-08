@@ -74,7 +74,9 @@ split_file = song.split(" - ")
 end
 
 def self.create_from_filename(song)
-  self.new_from_filename(song)
+  song = self.new_from_filename(song)
+  song.save
+  song
 end
 end
 
