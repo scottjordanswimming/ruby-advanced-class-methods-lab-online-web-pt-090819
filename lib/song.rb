@@ -70,6 +70,7 @@ split_file = song.split(" - ")
   song = song.new 
   song.name = song_name 
   song.artist_name = artist 
+  song
 end
 
 
