@@ -60,7 +60,7 @@ def self.alphabetical
 end
 
 def self.new_from_filename(song)
- x = []
+split_file = song.split(" - ")
  x << song
  binding.pry
   
