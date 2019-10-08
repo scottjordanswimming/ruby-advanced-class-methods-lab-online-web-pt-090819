@@ -62,6 +62,7 @@ end
 def self.new_from_filename(song)
  x = self.create_by_name(song)
  x
+ binding.pry
   
 end
 
